@@ -20,6 +20,7 @@ terraform {
     encrypt                 = true
     access_key              = "xxxxxxxxxxxxxxxxxxxx"
     secret_key              = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    token                   = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     profile                 = "aws_management_cli"
   }
 }
