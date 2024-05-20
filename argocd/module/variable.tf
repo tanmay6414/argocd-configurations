@@ -15,5 +15,5 @@ variable "eks" {
 }
 variable "eks_role" {
   type    = string
-  default = "arn:aws:iam::515717280308:role/eks-admin"
+  default = "arn:aws:iam::123456789:role/eks-admin"
 }
