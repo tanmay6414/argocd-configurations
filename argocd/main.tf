@@ -17,4 +17,5 @@ module "eks_cluster" {
   name        = "eks_cluster"
   add_cluster = true
   eks = true
+  eks_role = "arn:aws:iam::123456789:role/eks-admin"
 }
